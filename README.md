@@ -21,16 +21,3 @@ This project implements an **AI Agent** that, given a specified username (and op
 
 ---
 
-## Project Structure
-.
-├── agents/
-│ └── linked_lookup_agent.py # AI Agent to search for profile URLs
-├── third_parties/
-│ └── linkedin.py # LinkedIn scraper (currently mock data)
-├── tools/
-│ └── tools.py # Tool functions (Tavily search wrapper)
-├── iceBreaker.py # Main script for running the pipeline
-├── Pipfile # Pipenv dependency file
-├── Pipfile.lock # Locked dependencies
-├── pycache/ # Python bytecode cache
-└── README.md # This file
